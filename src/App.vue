@@ -15,8 +15,11 @@
 </template>
 
 <script>
-import Flashcard from './components/Flashcard.vue'
-import ProgressBar from './components/ProgressBar.vue'
+import Flashcard from './components/Flashcard.vue';
+import ProgressBar from './components/ProgressBar.vue';
+import correctSound from './sounds/correct_sound.mp3';
+import incorrectSound from './sounds/incorrect_sound.mp3';
+import resultsSound from './sounds/results_sound.mp3';
 
 export default {
     data() {
@@ -28,9 +31,9 @@ export default {
             numberOfQuestions: 0,
             playerPoints: 0,
             isFinished: false,
-            correctSound: require('./sounds/correct_sound.mp3'),
-            incorrectSound: require('./sounds/incorrect_sound.mp3'),
-            resultsSound: require('./sounds/results_sound.mp3')
+            correctSound: correctSound,
+            incorrectSound: incorrectSound,
+            resultsSound: resultsSound
         }
     },
 
