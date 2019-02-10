@@ -1,29 +1,12 @@
 # vue_quiz_app
 
-## Project setup
-```
-npm install
-```
+Simple quiz like application made in Vue.js. This app is PWA also, so you can download it on your smartphone.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Live version: [click here](https://kieryk123.github.io/vue_quiz_app/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## I used:
+* Vue
+* Service Worker
+* All PWA stuff
+* SASS
+* BEM naming convention
